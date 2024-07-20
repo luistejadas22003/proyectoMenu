@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aprender es Divertido</title>
+    <link rel="stylesheet" href="../../css/primaria.css">
+</head>
+<body>
+    <header>
+        <h1>APRENDER ES DIVERTIDO</h1>
+    </header>
+    <main>
+        <h2 >ayudamos a buscar el numero q falta en la secuencia</h2>
+        
+        <div class="container">
+            <div class="marco1">
+                <div id="ramdon"></div>
+            </div>
+            
+            
+        </div>
+
+        <div class="containr">
+            <div class="options">
+                <button id="opcion1" class="boton" onclick="secuencia.opcion(1);actualizarPagina()">Opción 1</button>
+                <button id="opcion2" class="boton" onclick="secuencia.opcion(2);actualizarPagina()">Opción 2</button>
+                <button id="opcion3" class="boton" onclick="secuencia.opcion(3);actualizarPagina()">Opción 3</button>
+                <button id="opcion4" class="boton" onclick="secuencia.opcion(4);actualizarPagina()">Opción 4</button>
+            </div>
+    
+        </div>
+        <div id="resp">
+            <p id="respuestaTexto"></p>
+            <img class="mg" id="imagenRespuesta" >
+        </div>
+        
+    </main>
+    <footer>
+        &copy; 2024 Aprender es Divertido
+    </footer>
+    
+    <script src="../../js/secuencia2.js"></script>
+
+   
+</body>
+</html>

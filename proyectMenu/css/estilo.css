@@ -1,0 +1,262 @@
+/* estilos.css */
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffffa2;
+    color: #333;
+   
+  }
+  
+  header {
+    background-color: #acdbfd;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  header h1 {
+    margin: 0;
+    font-size: 2em;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    color: #000000;
+  }
+  
+  .marco { 
+    overflow: hidden;
+    margin: 20px;
+    width: calc(33.333% - 40px);
+    text-align: center;
+    height: 310px;
+    width: 300px; 
+  }
+  h2{
+    color: rgb(49, 49, 179);
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    
+
+  }
+
+  .neg{
+    font-weight: bold;
+  }
+
+  .boton {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    color: #fff;
+    background-color: #7f92ef;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    
+}
+
+
+
+img{
+  max-width: 110%;
+}
+
+.boton:hover {
+    background-color: #a6edf5;
+}
+
+  
+   .mg {
+    max-width: 300px;
+    max-height: 200px;
+   }
+   
+  
+  footer {
+    background-color: #0077cc;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+  }
+  
+  @media (max-width: 768px) {
+    .marco {
+      width: calc(50% - 40px);
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .marco {
+      width: calc(100% - 40px);
+    }
+  }
+  
+  #randon1{
+    display: flex;
+    justify-content: center;
+    color:#131212;
+    font-weight: 900;
+     
+  }
+
+  #randon2{
+    display: flex;
+    justify-content: center;
+    color:#131212;
+    font-weight: 900;
+     
+  }
+
+  .containr {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 70px;
+   
+  }
+  .com{
+    border: 2px solid rgba(253, 253, 253, 0.329); /* Borde de 2px de ancho y color negro */
+    background-color: rgb(255, 255, 255); /* Fondo de color blanco */
+    
+  }
+  h4 {
+    font-size: 24px;
+    font-weight: bold;
+    color: rgb(0, 0, 0); 
+    font-family: 'Arial Black', Arial, sans-serif;
+  } 
+ 
+  
+  #resp {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 80%;
+    margin: 0 auto;
+    color:#000000;
+    font-weight: 900;
+    background-color: #ffffff00;
+    border-radius: 10px;
+    padding: 20px;
+    border: 2px solid rgba(253, 253, 253, 0.329); /* Borde de 2px de ancho y color negro */
+    background-color: rgba(255, 255, 255, 0.562);
+    font-size: 24px;
+    font-weight: bold;
+    color: rgb(0, 0, 0); 
+    font-family: 'Arial Black', Arial, sans-serif;
+   
+  }
+  
+  #ramdon{
+    font-size: 50px;
+    font-weight: bold;
+
+  }
+
+  #respuesta {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 80%;
+    margin: 0 auto;
+    color:#000000;
+    font-weight: 900;
+    background-color: #ffffff00;
+    border-radius: 10px;
+    padding: 20px;
+   
+  }
+  .mga {
+    max-width: 300px;
+    max-height: 200px;
+    
+   }
+   .conta {
+    display: flex; /* Usamos flexbox para centrar */
+    justify-content: center; /* Centramos horizontalmente */
+    align-items: center; /* Centramos verticalmente */
+    width: 100%; /* Ajustamos el ancho según necesidades */
+    height: 100vh; /* Ajustamos la altura según necesidades */
+}
+   .mga-img {
+    max-width: 100%; /* Asegura que la imagen no sobrepase el ancho del contenedor */
+    max-height: 100%; /* Asegura que la imagen no sobrepase la altura del contenedor */
+    display: block; /* Elimina espacios innecesarios alrededor de la imagen */
+    margin: auto; /* Centra la imagen dentro del contenedor */
+}
+
+
+
+
+/* Estilo para el campo de entrada */
+input.n {
+  width: calc(100% - 22px); /* Ajusta el ancho para incluir el padding */
+  padding: 10px;
+  border: 1px solid #cccccc; /* Borde gris claro */
+  border-radius: 4px; /* Bordes redondeados */
+  font-size: 16px;
+  box-sizing: border-box; /* Incluye padding y border en el ancho total */
+  outline: none; /* Elimina el borde de enfoque predeterminado */
+  transition: border-color 0.3s; /* Transición suave para el borde */
+}
+
+/* Estilo para el campo de entrada al estar enfocado */
+input.n:focus {
+  border-color: #007bff; /* Borde azul al enfocarse */
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); /* Sombra azul al enfocarse */
+}
+
+/* Estilo para el texto del marcador de posición */
+input.n::placeholder {
+  color: #888888; /* Color de texto de marcador de posición */
+}
+
+/* Estilo para el contenedor de botones */
+div.botones {
+  margin-top: 20px; /* Espacio entre el campo de entrada y los botones */
+}
+
+/* Estilo para los botones */
+.boton {
+  background-color: #007bff; /* Color de fondo azul */
+  color: #ffffff; /* Color de texto blanco */
+  border: none; /* Elimina el borde predeterminado */
+  border-radius: 4px; /* Bordes redondeados */
+  padding: 10px 20px; /* Espaciado interno */
+  font-size: 16px; /* Tamaño de fuente */
+  cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+  transition: background-color 0.3s, transform 0.2s; /* Transiciones suaves */
+  margin: 5px; /* Espaciado entre botones */
+}
+
+/* Estilo para los botones al pasar el cursor sobre ellos */
+.boton:hover {
+  background-color: #0056b3; /* Color de fondo azul más oscuro */
+  transform: scale(1.05); /* Escala el botón ligeramente */
+}
+
+/* Estilo para los botones al estar presionidos */
+.boton:active {
+  background-color: #004494; /* Color de fondo aún más oscuro */
+}
+
+/* Estilo para el contenedor de respuestas */

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aprender es Divertido</title>
+    <link rel="stylesheet" href="../../css/primaria.css">
+</head>
+<body>
+    <header>
+        <h1>APRENDER ES DIVERTIDO</h1>
+    </header>
+    <main>
+        <h2>¿Quién es mayor de edad?</h2>
+        
+        <div class="container">
+            <div class="marco1">
+                <div class="com">
+                    <h4>María tiene la edad de</h4>
+                <div id="randon1"></div>
+                </div>
+                <img class="mg" src="../../png/maria.png" alt="">
+            </div>
+            
+            <div class="marco1">
+                <div class="com">
+                    <h4>Juan tiene la edad de</h4>
+                <div id="randon2"></div>
+                </div>
+                <img class="mg" src="../../png/juan.png" alt="">
+            </div>
+        </div>
+
+        <div class="containr">
+            <div class="arreglar">
+                <button type="button" class="boton" onclick="game.maria(); actualizarPagina()">María</button>
+            </div>
+            <div class="arreglar">
+                <button type="button" class="boton" onclick="game.juan(); actualizarPagina()">Juan</button>
+            </div>
+        </div>
+        
+        <div id="resp">
+            <p id="respuestaTexto"></p>
+            <img class="mg" id="imagenRespuesta" src="" alt="">
+        </div>
+        
+    </main>
+    <footer>
+        &copy; 2024 Aprender es Divertido
+    </footer>
+    
+    <script src="../../js/edad.js"></script>
+
+</body>
+</html>

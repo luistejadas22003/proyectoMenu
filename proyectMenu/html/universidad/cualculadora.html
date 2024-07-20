@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora Básica</title>
+    <link rel="stylesheet" href="../../css/calculadora.css">
+</head>
+
+<body>
+    <header>
+        <h1>APRENDER ES DIVERTIDO</h1>
+    </header>
+    
+    <div class="container">
+        <div class="calculator">
+            <input type="text" id="display" class="display" readonly>
+            <div class="keys">
+                <button class="key" onclick="cal.datosOP('1')">1</button>
+                <button class="key" onclick="cal.datosOP('2')">2</button>
+                <button class="key" onclick="cal.datosOP('3')">3</button>
+                <button class="key operator" onclick="cal.datosOP('+')">+</button>
+                <button class="key" onclick="cal.datosOP('4')">4</button>
+                <button class="key" onclick="cal.datosOP('5')">5</button>
+                <button class="key" onclick="cal.datosOP('6')">6</button>
+                <button class="key operator" onclick="cal.datosOP('-')">-</button>
+                <button class="key" onclick="cal.datosOP('7')">7</button>
+                <button class="key" onclick="cal.datosOP('8')">8</button>
+                <button class="key" onclick="cal.datosOP('9')">9</button>
+                <button class="key operator" onclick="cal.datosOP('*')">x</button>
+                <button class="key" onclick="cal.clearDisplay()">C</button>
+                <button class="key" onclick="cal.datosOP('0')">0</button>
+                <button class="key operator" onclick="cal.datosOP('/')">÷</button>
+                <button class="key equals" onclick="cal.calculate()">=</button>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="../../js/calculadora.js"></script>
+</body>
+</html>

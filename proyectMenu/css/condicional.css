@@ -1,0 +1,103 @@
+/* Estilos generales */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-image:url(../png/fondo.png)
+}
+
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+h1, h2 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.condicion {
+    background-color: white;
+    padding: 4px;
+    border-radius: 10px;
+    text-align: center;
+    margin: 0 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.condicion button {
+    border: none;
+    background: none;
+    cursor: pointer;
+    padding: 0;
+}
+
+.condicion button:hover {
+    opacity: 0.7;
+}
+
+.condicion img {
+    max-width: 250px;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+.condicion img:hover {
+    transform: scale(1.2);
+}
+
+
+
+#pregunta {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 24px;
+    color: black;
+}
+
+#resp {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 80%;
+    margin: 0 auto;
+    color:#000000;
+    font-weight: 900;
+    background-color: #ffffff00;
+    border-radius: 10px;
+    padding: 20px;
+    border: 2px solid rgba(253, 253, 253, 0.329); /* Borde de 2px de ancho y color negro */
+    background-color: rgba(255, 255, 255, 0);
+    font-size: 24px;
+    font-weight: bold;
+    color: rgb(0, 0, 0); 
+    font-family: 'Arial Black', Arial, sans-serif;
+   
+  }
