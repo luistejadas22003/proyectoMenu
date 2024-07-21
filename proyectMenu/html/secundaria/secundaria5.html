@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabla de Multiplicar y/o Sumar</title>
+    <link rel="stylesheet" href="../../css/secundaria.css">
+</head>
+<body>
+    <header>
+        <h1>Tabla de Multiplicar y/o Sumar</h1>
+    </header>
+    <main>
+        <section id="ejercicio">
+            <h2>Ingrese un número entero y elija el tipo de tabla:</h2>
+            <input type="number" id="numero" placeholder="Número">
+            <select id="tipo-tabla">
+                <option value="multiplicar">*</option>
+                <option value="sumar">+</option>
+            </select>
+            <button onclick="jugar()">Generar Tabla</button>
+        </section>
+        <section id="resultado">
+            <h2>Resultado:</h2>
+            <p id="resultado-texto"></p>
+        </section>
+    </main>
+    <script src="../../js/secundaria5.js"></script>
+</body>
+</html>
